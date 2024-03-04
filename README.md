@@ -1,8 +1,54 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project title
 
-Currently, two official plugins are available:
+Consume API Mercado livre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tools used
+
+Vite + ReactJS + Javascript 
+
+# Description
+
+Application created to analyze the API provided by Mercado Libre Brazil, check the API's behavior in the use and search of products using API
+
+## Installation
+
+git clone https://github.com/ivanmartins090317/consume-mlb.git
+
+after cloning the repository into yours where you copied it
+cd consume-mlb
+
+after that:
+npm install
+
+after that:
+npm run dev
+## Reference
+
+[ReactJS] https://react.dev/learn
+
+[useState] https://legacy.reactjs.org/docs/hooks-state.html
+
+[useEffect] https://react.dev/reference/react/useEffect
+
+[useContext] https://react.dev/reference/react/useContext
+## Autores
+
+- [Ivan Martins] https://www.linkedin.com/in/ivan-roberto-220ab310b/
+
+
+## Functions
+
+- Search for goods on Mercado livre
+
+
+## Improvements
+
+Create a cart component
+Direct the user to the best product on Mercado Libre
+Responsive layout
+
+## Project structure
+
+Simple MVC project structure, 
+applied some basic javascript and Desin Pattern concepts.

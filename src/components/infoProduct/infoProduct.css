@@ -1,0 +1,41 @@
+.container-memory button {
+  background-color: #ffffff;
+  border: 1px solid #a8a8a8;
+  border-radius: 5px;
+  padding: 8px;
+  outline: none;
+  margin-right: 0.5rem;
+  font-weight: 300;
+}
+
+.container-memory button:hover {
+  transition: all 0.5s;
+  border: 1px solid #3483fa;
+}
+.container-memory-check {
+  transition: all 0.5s;
+  border: 1px solid #3483fa;
+}
+.memory {
+  font-weight: 300;
+}
+.memory span {
+  font-weight: 500;
+}
+.buy {
+  padding: 0.9rem 40%;
+  border-radius: 5px;
+  border: none;
+  margin-top: 1rem;
+  color: #fff;
+  background-color: #3483fa;
+}
+.addCart {
+  text-wrap:nowrap;
+  padding: 0.9rem max(31%);
+  border-radius: 5px;
+  border: none;
+  margin-top: 1rem;
+  color: #3483fa;
+  background-color: #d9e7fa;
+}

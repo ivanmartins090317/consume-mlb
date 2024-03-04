@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  background: #ffe600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  border: none;
+  border-right: 1ps solid #111;
+  background-color: #ffffff;
+  padding: 10px 25px;
+}
+.form-container button {
+  border: none;
+  background-color: #ffffff;
+}
+.form-container button .search {
+  color: #e6e6e6;
+}
+.form-container input {
+  border: none;
+  border-right: 1px solid #e6e6e6;
+  outline: none;
+  padding-right:15px;
+}
