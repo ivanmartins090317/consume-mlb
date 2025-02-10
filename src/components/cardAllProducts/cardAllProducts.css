@@ -82,3 +82,9 @@
   font-weight: 400;
   font-style: normal;
 }
+/* @media(width < 700px){
+  .cards{
+    width: 600%;
+    overflow-x: auto;
+  }
+} */
