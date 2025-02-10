@@ -1,15 +1,21 @@
-
 # Project title
 
 Consume API Mercado livre
 
 # Tools used
 
-Vite + ReactJS + Javascript 
+Vite + ReactJS + Javascript
 
 # Description
 
 Application created to analyze the API provided by Mercado Libre Brazil, check the API's behavior in the use and search of products using API
+
+---
+
+**Screen 📷**
+![alt text](./src/public/capa-projeto.png)
+
+---
 
 ## Installation
 
@@ -23,6 +29,7 @@ npm install
 
 after that:
 npm run dev
+
 ## Reference
 
 [ReactJS] https://react.dev/learn
@@ -32,15 +39,14 @@ npm run dev
 [useEffect] https://react.dev/reference/react/useEffect
 
 [useContext] https://react.dev/reference/react/useContext
+
 ## Autores
 
 - [Ivan Martins] https://www.linkedin.com/in/ivan-roberto-220ab310b/
 
-
 ## Functions
 
 - Search for goods on Mercado livre
-
 
 ## Improvements
 
@@ -50,5 +56,5 @@ Responsive layout
 
 ## Project structure
 
-Simple MVC project structure, 
+Simple MVC project structure,
 applied some basic javascript and Desin Pattern concepts.
