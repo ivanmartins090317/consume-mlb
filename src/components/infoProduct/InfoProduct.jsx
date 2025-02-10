@@ -1,4 +1,5 @@
-import { useState } from "react"
+import { useState, useContext } from "react"
+import { ProductsContext } from "../../contexts/productsContext"
 
 import "./infoProduct.css"
 
@@ -10,8 +11,13 @@ const InfoProduct = ({
   avaliacao,
   installments,
 }) => {
- 
   const [memory, setMemory] = useState(null)
+
+  const { count, setCount } = useContext(ProductsContext)
+ console.log(count);
+  const handleClick = () => {
+    setCount(count + 1)
+  }
 
   return (
     <div className="info-description">
@@ -56,7 +62,9 @@ const InfoProduct = ({
         <button onClick={(e) => setMemory(e.target.textContent)}>128 GB</button>
       </div>
       <button className="buy">Comprar</button>
-      <button className="addCart">Adicionar ao carrinho</button>
+      <button className="addCart" onClick={handleClick}>
+        Adicionar ao carrinho
+      </button>
     </div>
   )
 }

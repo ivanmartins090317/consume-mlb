@@ -33,3 +33,17 @@
   outline: none;
   padding-right:15px;
 }
+
+
+@media (width < 700px){
+  .header{
+    width: 100%;
+  }
+  .form-container{
+    width:100px;
+    margin:0 1rem
+  }
+  .form-container input{
+    width: 100%;
+  }
+}

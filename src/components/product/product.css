@@ -138,3 +138,10 @@ body {
 .action:hover {
   background-color: #27ae60;
 }
+
+
+@media(width < 700px){
+  .layout{
+    flex-direction: column;
+  }
+}

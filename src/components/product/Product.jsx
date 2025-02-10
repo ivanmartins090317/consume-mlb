@@ -2,11 +2,12 @@ import { useContext } from "react"
 import { mlbFecth } from "../../controller/apiProducts"
 import { InfoProduct } from "../infoProduct/InfoProduct"
 import { ProductsContext } from "../../contexts/productsContext"
+import { formattCurency } from "../../utils/formattCurency"
+
 import "./product.css"
 
 const Product = () => {
   const { products, setProducts } = useContext(ProductsContext)
-  console.log(products)
 
   if (products.length === 0) {
     mlbFecth("iphone").then((data) => {
@@ -15,7 +16,7 @@ const Product = () => {
   }
 
   const betterProduct = products.length > 0 ? products[0] : null
-  console.log(betterProduct)
+  
   return (
     <>
       {betterProduct && (
@@ -28,7 +29,7 @@ const Product = () => {
           </div>
           <InfoProduct
             title={betterProduct.title}
-            price={betterProduct.price}
+            price={formattCurency(betterProduct.price)}
             discount={betterProduct.discount}
             condiction={betterProduct.condiction}
             avaliacao={betterProduct.available_quantity}

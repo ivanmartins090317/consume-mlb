@@ -1,0 +1,18 @@
+.cart .countProduct{
+  display:grid;
+  place-items:center;
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  background-color:#ee3355;
+  position:absolute;
+  top:-5px;
+  left:-5px;
+  color:#FFFFFF;
+  font-size:10px;
+}
+
+.cart{
+  position:relative;
+
+}

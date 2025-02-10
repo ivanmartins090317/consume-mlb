@@ -39,3 +39,9 @@
   color: #3483fa;
   background-color: #d9e7fa;
 }
+
+@media(width < 700px){
+  .addCart{
+    padding: 0.9rem max(28%)
+  }
+}
